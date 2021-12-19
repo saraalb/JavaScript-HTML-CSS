@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* ***** HEADER ***** */
+header {
+  padding: 20px 0;
+  background-color: #bbbbbb;
+}
+h1 {
+  margin: 0;
+}
+.caixa {
+  position: relative;
+  width: 940px;
+  margin: 0 auto;
+}
+
+nav {
+  position: absolute;
+  right: 0;
+  top: 110px;
+}
+
+nav li {
+  display: inline;
+  margin: 0 0 0 15px;
+}
+
+nav a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+  font-size: 22px;
+  transition: 0.4s all;
+}
+
+nav a:hover {
+  color: #c78c19;
+  text-decoration: underline;
+}
+
+/* ***** MAIN CONTATO ***** */
+main {
+  font-size: 20px;
+}
+
+label,
+input,
+legend,
+select,
+textarea {
+  margin: 10px 0 0 20px;
+  display: block;
+}
+
+input,
+textarea,
+select {
+  margin: 0 0 20px 20px;
+  font-size: 20px;
+}
+
+label,
+legend {
+  margin-bottom: 10px;
+}
+
+.nome-email-telefone-mensagem-div input {
+  width: 40%;
+  height: 2em;
+}
+
+.section-contato-radio input,
+.section-contato-radio legend,
+.section-contato-radio label,
+.checkbox input,
+.checkbox label {
+  display: inline-block;
+}
+
+.checkbox input {
+  margin-left: 0;
+}
+
+.enviar {
+  width: 40%;
+  padding: 15px 0;
+  color: white;
+  background: orange;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.9s all;
+}
+
+.enviar:hover {
+  background: darkorange;
+}
+
+/* ***** FOOTER ***** */
+
+footer {
+  text-align: center;
+  background: url("imagens/bg.jpg");
+  padding: 40px 0;
+}
+
+.copyright {
+  color: #ffffff;
+  font-size: 13px;
+  margin: 20px 0 0;
+}

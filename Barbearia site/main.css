@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* ***** HEADER ***** */
+header {
+  padding: 20px 0;
+  background-color: #bbbbbb;
+}
+h1 {
+  margin: 0;
+}
+.caixa {
+  position: relative;
+  width: 940px;
+  margin: 0 auto;
+}
+
+nav {
+  position: absolute;
+  right: 0;
+  top: 110px;
+}
+
+nav li {
+  display: inline;
+  margin: 0 0 0 15px;
+}
+
+nav a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+  font-size: 22px;
+  transition: 0.4s all;
+}
+
+nav a:hover {
+  color: #c78c19;
+  text-decoration: underline;
+}
+
+/* ***** BANNER ***** */
+#banner {
+  width: 100%;
+}
+
+/* ***** SOBRE ***** */
+
+.section-sobre {
+  text-align: center;
+  background-color: #fefefe;
+  width: 940px;
+  margin: 0 auto;
+  padding: 3em 0;
+}
+
+.section-sobre strong {
+  font-weight: bold;
+}
+
+.titulo-principal {
+  text-align: center;
+  font-size: 2em;
+  margin: 0 0 1em;
+  clear: left;
+}
+
+.imagem-utensilio {
+  float: left;
+  width: 120px;
+  margin: 0 20px 20px 0;
+}
+
+.section-sobre p {
+  margin: 0 0 1em;
+}
+
+.section-sobre p:last-child {
+  margin: 0 0 1em;
+}
+
+#missao {
+  font-style: italic;
+  font-size: 20px;
+}
+
+/* ***** ESTABELECIMENTO ***** */
+
+.section-estabelecimento {
+  background: linear-gradient(#fefefe, #888888);
+  padding: 3em 0;
+}
+
+.h3-beneficios,
+.h3-estabelecimento {
+  text-align: center;
+  font-size: 2em;
+  margin: 0 0 1em;
+  clear: left;
+}
+
+.section-estabelecimento p {
+  text-align: center;
+  margin: 0 0 2em 0;
+}
+
+.mapa {
+  width: 940px;
+  margin: 0 auto;
+}
+
+/* ***** BENEFICIOS ***** */
+
+.section-beneficios {
+  background: #888888;
+  padding: 3em 0;
+}
+
+.div-beneficios {
+  width: 640px;
+  margin: 0 auto;
+}
+
+.section-beneficios ul {
+  display: inline-block;
+  width: 40%;
+  vertical-align: top;
+}
+
+.img-beneficios {
+  width: 60%;
+  opacity: 1;
+  transition: 400ms;
+  box-shadow: 10px 10px 10px 0 #000000;
+}
+
+.section-beneficios li::before {
+  content: "★ ";
+}
+
+.section-beneficios li {
+  line-height: 1.5;
+}
+
+.img-beneficios:hover {
+  opacity: 4;
+}
+
+/* ***** FOOTER ***** */
+
+footer {
+  text-align: center;
+  background: url("imagens/bg.jpg");
+  padding: 40px 0;
+}
+
+.copyright {
+  color: #ffffff;
+  font-size: 13px;
+  margin: 20px 0 0;
+}
+
+@media screen and (max-width: 480px) {
+  .caixa,
+  .section-sobre,
+  .section-estabelecimento,
+  .section-beneficios,
+  .mapa {
+    width: auto;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  nav {
+    position: static;
+  }
+
+  main {
+    height: 1400px;
+  }
+
+  .section-beneficios ul {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .img-beneficios {
+    visibility: hidden;
+  }
+
+  .titulo-principal {
+    font-size: 1.7em;
+  }
+
+  .imagem-utensilio {
+    width: 50%;
+  }
+  .section-sobre p {
+    font-size: 20px;
+  }
+
+  .h3-estabelecimento {
+    font-size: 1.7em;
+  }
+
+  .footer {
+    padding: 0;
+  }
+}
