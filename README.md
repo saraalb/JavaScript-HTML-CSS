@@ -1,4 +1,6 @@
 # Projects
-- Most projects were made based on Jonas Schmedtmann courses at Udemy website. 
-- Some projects were made based on Freecodecamp website.
-- Some projects were made on my own only for practice.
+The projects here were made based on:
+  - Jonas Schmedtmann courses at Udemy website.
+  - Freecodecamp website.
+  - Alura course
+  - And some projects were made on my own only for practice.
