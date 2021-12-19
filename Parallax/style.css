@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+body {
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  margin: 0;
+}
+
+.first-div,
+.seventh-div {
+  height: 844px;
+
+  /* text-align: center; */
+
+  background-image: url(imagens/imagem1.jpg);
+  opacity: 0.6;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+h1,
+.nome-comeco-final {
+  display: inline-block;
+  /* margin: 28% 0 0 34%; */
+  padding: 1% 2%;
+  margin-top: 27%;
+  opacity: 1;
+  border: 1px solid black;
+  background: black;
+  color: white;
+  font-size: 28px;
+  letter-spacing: 8px;
+  font-weight: 450;
+}
+
+.second-div {
+  background-color: #f5f4f4;
+  color: #666565;
+  padding: 2%;
+}
+
+.second-div h2 {
+  font-size: 25px;
+  font-weight: 800;
+}
+
+.second-div p {
+  font-size: 15px;
+  padding: 0 3%;
+  letter-spacing: 1.5px;
+  line-height: 160%;
+}
+
+.third-div {
+  background-image: url(imagens/imagem2.jpg);
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  opacity: 0.9;
+}
+
+.third-div h3 {
+  display: inline-block;
+  margin-top: 0;
+  color: rgb(211, 210, 211);
+  font-weight: 600;
+  letter-spacing: 9px;
+  font-size: 27px;
+  padding-top: 10%;
+  -webkit-text-stroke-width: 1px; /* largura da borda */
+  -webkit-text-stroke-color: rgb(203, 171, 204);
+}
+
+.forth-div,
+.sixth-div {
+  background-color: rgba(14, 14, 14, 0.953);
+  color: white;
+  padding: 3% 2%;
+  opacity: 0.9;
+}
+
+.forth-div h3,
+.sixth-div h3 {
+  font-size: 22px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.forth-div p,
+.sixth-div p {
+  font-size: 15px;
+  padding: 0 6%;
+  letter-spacing: 1.5px;
+  line-height: 160%;
+}
+
+.fifth-div {
+  background-image: url(imagens/imagem3.jpg);
+  height: 450px;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  opacity: 0.8;
+}
+
+.fifth-div h3 {
+  display: inline-block;
+  margin-top: 0;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  letter-spacing: 9px;
+  font-size: 27px;
+  padding-top: 15%;
+  -webkit-text-stroke-width: 1px; /* largura da borda */
+  -webkit-text-stroke-color: rgb(192, 192, 192);
+}
