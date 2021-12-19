@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Survey</title>
+  </head>
+  <body>
+    <header>
+      <h1 id="title">freeCodeCamp Survey Form</h1>
+      <p id="description">
+        Thank you for taking the time to help us improve the platform
+      </p>
+    </header>
+    <form id="survey-form">
+      <div id="name-section" class="form-section">
+        <label id="name-label" for="name">Name</label>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Enter your name"
+          required
+        />
+      </div>
+
+      <div id="email-section" class="form-section">
+        <label id="email-label" for="email">Email</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Enter your Email"
+          required
+        />
+      </div>
+
+      <div id="age-section" class="form-section">
+        <label id="number-label" for="number"
+          >Age <span>(Optional)</span></label
+        >
+        <input
+          type="number"
+          name="number"
+          id="number"
+          min="18"
+          max="113"
+          placeholder="Age"
+        />
+      </div>
+
+      <div id="current-role-section" class="form-section">
+        <label id="current-role-label"
+          >Which option best describes your current role?</label
+        >
+        <br />
+        <select id="dropdown" name="role" required>
+          <option disabled selected value>Select current role</option>
+          <option value="student">Student</option>
+          <option value="job">Full-time job</option>
+          <option value="learner">Full-time learner</option>
+          <option value="preferNo">Prefer not to say</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+
+      <div id="recommend-section" class="form-section">
+        <p class="p-margin">Would you recommend freeCodeCamp to a friend?</p>
+        <input
+          type="radio"
+          id="definitely"
+          name="user-recommend"
+          value="definitely"
+          checked
+        />
+        <label id="definitely-label" for="definitely">Definitely</label> <br />
+
+        <input type="radio" id="maybe" name="user-recommend" value="maybe" />
+        <label id="maybe-label" for="maybe">Maybe</label> <br />
+
+        <input
+          type="radio"
+          id="not-sure"
+          name="user-recommend"
+          value="not-sure"
+        />
+        <label id="not-sure-label" for="not-sure">Not sure</label> <br />
+      </div>
+
+      <div id="fav-feature-section" class="form-section">
+        <p class="p-margin">What's your favorite feature of FreeCodeCamp?</p>
+        <select id="most-like" name="mostLike">
+          <option disabled selected value>Select an option</option>
+          <option value="challenges">Challenges</option>
+          <option value="projects">Projects</option>
+          <option value="community">Community</option>
+          <option value="openSource">Open source</option>
+        </select>
+      </div>
+
+      <div id="improve-section" class="form-section">
+        <p class="p-margin">
+          What would you like to improve? <span>Check all that apply</span>
+        </p>
+        <input
+          type="checkbox"
+          id="front-end"
+          name="prefer"
+          value="front-end-projects"
+        />
+        <label for="front-end"> Front-end projects</label> <br />
+        <input
+          type="checkbox"
+          id="back-end"
+          name="prefer"
+          value="back-end-projects"
+        />
+        <label for="back-end"> Back-end projects</label> <br />
+        <input
+          type="checkbox"
+          id="data-vis"
+          name="prefer"
+          value="data-visualization"
+        />
+        <label for="data-vis"> Data Visualization</label> <br />
+
+        <input
+          type="checkbox"
+          id="challenges"
+          name="prefer"
+          value="challenges"
+        />
+        <label for="challenges"> Challenges</label> <br />
+
+        <input
+          type="checkbox"
+          id="open-source"
+          name="prefer"
+          value="open-source-community"
+        />
+        <label for="open-source"> Open Source Community</label> <br />
+
+        <input
+          type="checkbox"
+          id="gitter-help"
+          name="prefer"
+          value="gitter-help-rooms"
+        />
+        <label for="gitter-help"> Gitter help rooms</label> <br />
+
+        <input type="checkbox" id="videos" name="prefer" value="videos" />
+        <label for="videos"> Videos</label> <br />
+
+        <input
+          type="checkbox"
+          id="city-meetups"
+          name="prefer"
+          value="city-meetups"
+        />
+        <label for="city-meetups"> City Meetups</label> <br />
+
+        <input type="checkbox" id="wiki" name="prefer" value="wiki" />
+        <label for="wiki"> Wiki</label> <br />
+
+        <input type="checkbox" id="forum" name="prefer" value="forum" />
+        <label for="forum"> Forum</label> <br />
+
+        <input
+          type="checkbox"
+          id="additional-courses"
+          name="prefer"
+          value="additional-courses"
+        />
+        <label for="additional-courses"> Additional Courses</label> <br />
+      </div>
+
+      <div id="comments-section" class="form-section">
+        <label for="comments">Any comments or suggestions?</label> <br />
+        <textarea
+          id="comments"
+          name="comment"
+          rows="4"
+          cols="50"
+          placeholder="Enter your comment here..."
+        ></textarea>
+      </div>
+
+      <div id="bttn-section" class="form-section">
+        <button type="submit" id="submit">Submit</button>
+      </div>
+    </form>
+  </body>
+</html>
