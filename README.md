@@ -1,5 +1,5 @@
 # Projects
-The projects here were made based on:
+The projects here were developed based on:
   - Jonas Schmedtmann courses at Udemy website.
   - Freecodecamp website.
   - Alura course
